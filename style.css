@@ -1,0 +1,87 @@
+#quoteDisplay {
+    text-align: center;
+    background-color: rgb#639e7b;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 25px;
+    font-family: 'Antic Slab', serif;
+}
+
+#headerText {
+    color: #7744AA;
+    font-family: 'Antic Slab', serif;
+    font-size: 90px;
+}
+
+#lakeEola {
+    width: 90%;
+    height: 400px;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    
+}
+
+p {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+}
+
+#output {
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 3px solid #7744AA;
+    display: flex;
+    background-color: white;
+    padding: 2em;
+    width: 500px;
+    height: 50px;
+    font-weight: bold;
+}
+
+#btn {
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Antic Slab', serif;
+    font-size: 20px;
+    background-color:#4285F4;
+    font-weight: bold;
+    border: 2px solid #7744AA;
+    box-shadow: 0px 2px 3px #ffff;
+    
+}
+
+#btn:hover {
+    background-color: #0000;
+    color: #ffff;
+    
+}
+
+#btn:active {
+    box-shadow: 0px 0px 0px;
+    margin-top: 1px;
+}
+
+footer {
+    color: white;
+}
+
+#logos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    justify-content: center;
+}
+
